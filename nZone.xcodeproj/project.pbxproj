@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66A5B2B20464FCA00BAF02E /* Basketball-Hoop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66A5B2820464FCA00BAF02E /* Basketball-Hoop@3x.png */; };
+		B66A5B2C20464FCA00BAF02E /* Basketball-Hoop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66A5B2920464FCA00BAF02E /* Basketball-Hoop@2x.png */; };
+		B66A5B2D20464FCA00BAF02E /* Basketball-Hoop.png in Resources */ = {isa = PBXBuildFile; fileRef = B66A5B2A20464FCA00BAF02E /* Basketball-Hoop.png */; };
+		B66A5B322046505300BAF02E /* Newspaper-Articles@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66A5B2F2046505300BAF02E /* Newspaper-Articles@3x.png */; };
+		B66A5B332046505300BAF02E /* Newspaper-Articles.png in Resources */ = {isa = PBXBuildFile; fileRef = B66A5B302046505300BAF02E /* Newspaper-Articles.png */; };
+		B66A5B342046505300BAF02E /* Newspaper-Articles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66A5B312046505300BAF02E /* Newspaper-Articles@2x.png */; };
 		B6E433602046425F002CAB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E4335F2046425F002CAB4F /* AppDelegate.swift */; };
 		B6E433622046425F002CAB4F /* ReservedCourts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E433612046425F002CAB4F /* ReservedCourts.swift */; };
 		B6E433652046425F002CAB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E433632046425F002CAB4F /* Main.storyboard */; };
 		B6E433682046425F002CAB4F /* nZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6E433662046425F002CAB4F /* nZone.xcdatamodeld */; };
 		B6E4336A2046425F002CAB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E433692046425F002CAB4F /* Assets.xcassets */; };
 		B6E4336D2046425F002CAB4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E4336B2046425F002CAB4F /* LaunchScreen.storyboard */; };
-		B6E43377204642D4002CAB4F /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E43376204642D4002CAB4F /* Announcements.swift */; };
+		B6E43377204642D4002CAB4F /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E43376204642D4002CAB4F /* Events.swift */; };
 		B6E4337920464A33002CAB4F /* ReserveCourts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E4337820464A33002CAB4F /* ReserveCourts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B66A5B2820464FCA00BAF02E /* Basketball-Hoop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketball-Hoop@3x.png"; sourceTree = "<group>"; };
+		B66A5B2920464FCA00BAF02E /* Basketball-Hoop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketball-Hoop@2x.png"; sourceTree = "<group>"; };
+		B66A5B2A20464FCA00BAF02E /* Basketball-Hoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketball-Hoop.png"; sourceTree = "<group>"; };
+		B66A5B2F2046505300BAF02E /* Newspaper-Articles@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newspaper-Articles@3x.png"; sourceTree = "<group>"; };
+		B66A5B302046505300BAF02E /* Newspaper-Articles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newspaper-Articles.png"; sourceTree = "<group>"; };
+		B66A5B312046505300BAF02E /* Newspaper-Articles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newspaper-Articles@2x.png"; sourceTree = "<group>"; };
 		B6E4335C2046425F002CAB4F /* nZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E4335F2046425F002CAB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6E433612046425F002CAB4F /* ReservedCourts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedCourts.swift; sourceTree = "<group>"; };
@@ -26,7 +38,7 @@
 		B6E433692046425F002CAB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6E4336C2046425F002CAB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6E4336E2046425F002CAB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E43376204642D4002CAB4F /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
+		B6E43376204642D4002CAB4F /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		B6E4337820464A33002CAB4F /* ReserveCourts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveCourts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B66A5B2E20464FF500BAF02E /* Tab Bar Icon */ = {
+			isa = PBXGroup;
+			children = (
+				B66A5B302046505300BAF02E /* Newspaper-Articles.png */,
+				B66A5B312046505300BAF02E /* Newspaper-Articles@2x.png */,
+				B66A5B2F2046505300BAF02E /* Newspaper-Articles@3x.png */,
+				B66A5B2A20464FCA00BAF02E /* Basketball-Hoop.png */,
+				B66A5B2920464FCA00BAF02E /* Basketball-Hoop@2x.png */,
+				B66A5B2820464FCA00BAF02E /* Basketball-Hoop@3x.png */,
+			);
+			path = "Tab Bar Icon";
+			sourceTree = "<group>";
+		};
 		B6E433532046425F002CAB4F = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +89,7 @@
 				B6E4337520464278002CAB4F /* Controller */,
 				B6E433742046426E002CAB4F /* Storyboard */,
 				B6E433692046425F002CAB4F /* Assets.xcassets */,
+				B66A5B2E20464FF500BAF02E /* Tab Bar Icon */,
 				B6E4336E2046425F002CAB4F /* Info.plist */,
 				B6E433662046425F002CAB4F /* nZone.xcdatamodeld */,
 			);
@@ -83,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				B6E433612046425F002CAB4F /* ReservedCourts.swift */,
-				B6E43376204642D4002CAB4F /* Announcements.swift */,
+				B6E43376204642D4002CAB4F /* Events.swift */,
 				B6E4337820464A33002CAB4F /* ReserveCourts.swift */,
 			);
 			path = Controller;
@@ -148,9 +174,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66A5B2D20464FCA00BAF02E /* Basketball-Hoop.png in Resources */,
+				B66A5B2B20464FCA00BAF02E /* Basketball-Hoop@3x.png in Resources */,
+				B66A5B332046505300BAF02E /* Newspaper-Articles.png in Resources */,
+				B66A5B342046505300BAF02E /* Newspaper-Articles@2x.png in Resources */,
 				B6E4336D2046425F002CAB4F /* LaunchScreen.storyboard in Resources */,
+				B66A5B2C20464FCA00BAF02E /* Basketball-Hoop@2x.png in Resources */,
 				B6E4336A2046425F002CAB4F /* Assets.xcassets in Resources */,
 				B6E433652046425F002CAB4F /* Main.storyboard in Resources */,
+				B66A5B322046505300BAF02E /* Newspaper-Articles@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E43377204642D4002CAB4F /* Announcements.swift in Sources */,
+				B6E43377204642D4002CAB4F /* Events.swift in Sources */,
 				B6E433682046425F002CAB4F /* nZone.xcdatamodeld in Sources */,
 				B6E4337920464A33002CAB4F /* ReserveCourts.swift in Sources */,
 				B6E433622046425F002CAB4F /* ReservedCourts.swift in Sources */,

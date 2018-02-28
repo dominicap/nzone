@@ -1,5 +1,5 @@
 //
-//  Announcements.swift
+//  Events.swift
 //  nZone
 //
 //  Created by Dominic Philip on 2/27/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Announcements : UIViewController {
+class Events : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
