@@ -10,28 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Reserved Courts-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="Announcements" customModule="nZone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Reserved Courts" id="QJm-xY-rs7">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="2pr-HY-BRu">
-                            <connections>
-                                <segue destination="sZr-Xt-TlO" kind="presentation" id="g5T-8a-gzr"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1442" y="-304"/>
-        </scene>
         <!--Reserve Courts-->
         <scene sceneID="T2d-7W-8rM">
             <objects>
@@ -79,21 +57,58 @@
             <point key="canvasLocation" x="-163.19999999999999" y="133.13343328335833"/>
         </scene>
         <!--Events-->
-        <scene sceneID="iUl-GF-vVy">
+        <scene sceneID="Po2-mO-eVH">
             <objects>
-                <viewController id="UjU-EG-ysQ" customClass="Events" customModule="nZone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FEv-SW-yR1">
+                <tableViewController id="I8d-75-xa6" customClass="Events" customModule="nZone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="140" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="c9c-tl-ZTA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="GhH-y8-hHK"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Events" id="w9d-Pd-Gfb"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QZc-vc-lqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventTableViewCell" rowHeight="140" id="VOt-no-fNn" customClass="EventTableViewCell" customModule="nZone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="140"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VOt-no-fNn" id="Ojs-AA-87m">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdM-I6-9Ub">
+                                            <rect key="frame" x="128" y="14" width="231" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ft-Vc-Irw">
+                                            <rect key="frame" x="128" y="60" width="231" height="69"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7L-ue-6iA">
+                                            <rect key="frame" x="0.0" y="9" width="120" height="120"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="eventImage" destination="y7L-ue-6iA" id="3vF-bT-Moe"/>
+                                    <outlet property="eventTiming" destination="1ft-Vc-Irw" id="cQ0-8L-vGE"/>
+                                    <outlet property="eventTitle" destination="xdM-I6-9Ub" id="pEC-gE-SYj"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="I8d-75-xa6" id="w6g-4S-SwN"/>
+                            <outlet property="delegate" destination="I8d-75-xa6" id="59a-CV-KKJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Events" id="6sN-Cd-KZb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCi-4a-Xmi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1441" y="461"/>
+            <point key="canvasLocation" x="1440.8" y="460.11994002998506"/>
         </scene>
         <!--Courts-->
         <scene sceneID="AsJ-dJ-I7N">
@@ -107,12 +122,47 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gKC-Jy-tnw"/>
+                        <segue destination="5Vl-9D-puv" kind="relationship" relationship="rootViewController" id="czS-Vm-J7R"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Oj-uW-ssi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="619.20000000000005" y="-304.04797601199402"/>
+        </scene>
+        <!--Reserved Courts-->
+        <scene sceneID="Cki-gA-18c">
+            <objects>
+                <tableViewController id="5Vl-9D-puv" customClass="ReservedCourts" customModule="nZone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Z0p-IB-lPT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Mdf-wN-QeR">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mdf-wN-QeR" id="ebh-WW-SDB">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5Vl-9D-puv" id="bML-Ae-k9s"/>
+                            <outlet property="delegate" destination="5Vl-9D-puv" id="vmL-JJ-jae"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Reserved Courts" id="qPC-Wm-fan">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Dv7-5J-Bic">
+                            <connections>
+                                <segue destination="sZr-Xt-TlO" kind="presentation" id="ewj-xj-CuG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xgj-bC-JVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1441" y="-304"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Dmw-Ku-poH">
@@ -144,7 +194,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="UjU-EG-ysQ" kind="relationship" relationship="rootViewController" id="fAX-EP-0Qt"/>
+                        <segue destination="I8d-75-xa6" kind="relationship" relationship="rootViewController" id="ZM5-OI-nxn"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qri-1B-PRf" userLabel="First Responder" sceneMemberID="firstResponder"/>

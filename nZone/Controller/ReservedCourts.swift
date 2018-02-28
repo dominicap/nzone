@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReservedCourts: UIViewController {
+class ReservedCourts: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
