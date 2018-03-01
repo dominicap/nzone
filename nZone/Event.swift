@@ -10,15 +10,19 @@ import UIKit
 
 class Event {
     var title: String
+    var description: String
     var image: UIImage?
-    var timing: String
+    var startTime: Date?
+    var endTime: Date?
     
-    init?(title: String, image: UIImage?, timing: String) {
+    init?(title: String, description: String, image: UIImage?, startTime: Date?, endTime: Date?) {
         self.title = title
+        self.description = description
         self.image = image
-        self.timing = timing
+        self.startTime = startTime
+        self.endTime = endTime
         
-        if title.isEmpty || timing.isEmpty  {
+        if title.isEmpty  {
             return nil
         }
     }
